@@ -1,6 +1,6 @@
 {
     "name": "gravatalonga/web",
-    "description": "Base application for my challenges",
+    "description": "Base framework for my personal project, it can handle any kind of application",
     "type": "project",
     "require": {
         "gravatalonga/framework": "^1.0",
