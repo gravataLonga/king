@@ -1,0 +1,9 @@
+.phpunit.cache
+node_modules
+resource/cache/view
+resource/cache/app
+.env
+composer.lock
+.php-cs-fixer.cache
+package-lock.json
+vendor
