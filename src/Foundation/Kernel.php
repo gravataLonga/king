@@ -32,6 +32,7 @@ final class Kernel
     {
         $this->app = new App($path);
         $this->app->register(new DotEnvServiceProvider());
+        $this->app->boot();
 
         $this->slimApp = $this->createSlimApplication();
     }
@@ -99,7 +100,6 @@ final class Kernel
 
     private function createSlimApplication(): SlimApp
     {
-        $this->app->boot();
         $container = $this->app->getContainer();
         // load specif service provider
         $this->app->getContainer()->get('env');
