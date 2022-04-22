@@ -1,4 +1,7 @@
-# Web  
+# King  
+## Web Framework  
+
+![King Web Framework](cover.png)
 
 | Requirements |         |
 |--------------|:-------:|
@@ -7,7 +10,7 @@
 ## Installation  
 
 ``
-composer create-project gravatalonga/web project-folder
+composer create-project gravatalonga/king project-folder
 ``  
 
 ## Configuration  
