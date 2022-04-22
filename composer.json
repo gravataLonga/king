@@ -3,24 +3,13 @@
     "description": "Base framework for my personal project, it can handle any kind of application",
     "type": "project",
     "require": {
-        "gravatalonga/framework": "^1.0",
-        "gravatalonga/driver-manager": "^1.0",
-        "league/tactician": "^1.1",
-        "league/tactician-container": "^3.0",
-        "slim/slim": "4.*",
-        "slim/psr7": "^1.5",
-        "doctrine/dbal": "^3.3",
-        "middlewares/negotiation": "^2.1",
-        "twig/twig": "^3.0",
+        "gravatalonga/king-foundation": "^1.0",
         "middlewares/whoops": "^2.0",
-        "vlucas/phpdotenv": "^5.4",
-        "monolog/monolog": "^2.5",
-        "doctrine/migrations": "^3.5",
-        "friendsofphp/php-cs-fixer": "^3.8",
-        "gravatalonga/king-foundation": "^1.0"
+        "doctrine/migrations": "^3.5"
     },
     "require-dev": {
-        "phpunit/phpunit": "9.5"
+        "phpunit/phpunit": "9.5",
+        "friendsofphp/php-cs-fixer": "^3.8"
     },
     "license": "MIT",
     "autoload": {
