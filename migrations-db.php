@@ -1,12 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 use Doctrine\DBAL\Connection;
-use Gravatalonga\Container\Container;
 use Gravatalonga\Framework\ValueObject\Path;
-use Gravatalonga\Web\Foundation\Kernel;
+use Gravatalonga\KingFoundation\Kernel;
 
 $app = new Kernel(new Path(__DIR__));
 
-$container = Container::getInstance();
+$container = container();
 
 return $container->get(Connection::class);
