@@ -1,7 +1,7 @@
 <?php
 
 use Gravatalonga\Framework\ValueObject\Path;
-use Gravatalonga\Web\Foundation\Kernel;
+use Gravatalonga\KingFoundation\Kernel;
 use Middlewares\Whoops;
 
 require_once "../vendor/autoload.php";

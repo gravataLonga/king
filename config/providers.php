@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-use Gravatalonga\Web\Foundation\CommandBusServiceProvider;
-use Gravatalonga\Web\Foundation\DatabaseServiceProvider;
-use Gravatalonga\Web\Foundation\LogServiceProvider;
-use Gravatalonga\Web\Foundation\SlimServiceProvider;
-use Gravatalonga\Web\Foundation\TwigServiceProvider;
+use Gravatalonga\KingFoundation\CommandBusServiceProvider;
+use Gravatalonga\KingFoundation\DatabaseServiceProvider;
+use Gravatalonga\KingFoundation\LogServiceProvider;
+use Gravatalonga\KingFoundation\SlimServiceProvider;
+use Gravatalonga\KingFoundation\TwigServiceProvider;
 
 return [
 
