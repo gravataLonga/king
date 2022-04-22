@@ -1,7 +1,7 @@
 .phpunit.cache
 node_modules
-resource/cache/view
-resource/cache/app
+storage/cache/view
+storage/cache/app
 .env
 composer.lock
 .php-cs-fixer.cache

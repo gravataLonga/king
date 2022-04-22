@@ -20,7 +20,7 @@ class TwigServiceProvider implements ServiceProvider
                 return new FilesystemLoader($storage->suffix('views'));
             },
             'twig.options' => function (ContainerInterface $container) {
-                $storage = $container->has('path.resource') ? $container->get('path.resource') : new Path(__DIR__);
+                $storage = $container->has('path.storage') ? $container->get('path.storage') : new Path(__DIR__);
                 $options = $container->has('config.twig') ? $container->get('config.twig') : [];
 
                 return array_merge($options, [
