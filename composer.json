@@ -33,8 +33,8 @@
     "scripts": {
         "fix": "php-cs-fixer fix",
         "test": "phpunit --testdox",
-        "migrate": "doctrine-migrations migrate --configuration=config/migrations.php --db-configuration=migrations-db.php",
-        "migrate:generate": "doctrine-migrations generate --configuration=config/migrations.php --db-configuration=migrations-db.php",
-        "migrate:status": "./vendor/bin/doctrine-migrations status --configuration=config/migrations.php --db-configuration=migrations-db.php"
+        "migrate": "doctrine-migrations migrate",
+        "migrate:generate": "doctrine-migrations generate",
+        "migrate:status": "doctrine-migrations status"
     }
 }
