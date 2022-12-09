@@ -8,7 +8,7 @@ return [
 
     'drivers' => [
         'default' => [
-            'level' => \Monolog\Logger::WARNING,
+            'level' => \Monolog\Level::Warning,
             'name' => 'log.txt'
         ]
     ]
