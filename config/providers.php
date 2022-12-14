@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Gravatalonga\KingFoundation\CommandBusServiceProvider;
+use Gravatalonga\KingFoundation\ConsoleServiceProvider;
 use Gravatalonga\KingFoundation\DatabaseServiceProvider;
 use Gravatalonga\KingFoundation\LogServiceProvider;
 use Gravatalonga\KingFoundation\SlimServiceProvider;
@@ -17,5 +18,6 @@ return [
     new SlimServiceProvider(),
     new DatabaseServiceProvider(),
     new CommandBusServiceProvider(),
+    new ConsoleServiceProvider(),
     new TwigServiceProvider()
 ];

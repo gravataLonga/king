@@ -4,7 +4,7 @@
     "type": "project",
     "require": {
         "php": "^8.1",
-        "gravatalonga/king-foundation": "^1.0",
+        "gravatalonga/king-foundation": ">=1.0.10",
         "middlewares/whoops": "^2.0",
         "doctrine/migrations": "^3.5"
     },

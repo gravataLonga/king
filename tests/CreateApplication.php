@@ -8,6 +8,6 @@ trait CreateApplication
 {
     public function createApplication()
     {
-        $this->app = require_once __DIR__ . "/../public/bootstrap.php";
+        $this->app = require_once __DIR__ . "/../bootstrap/bootstrap.php";
     }
 }

@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+// application.php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+
+$kernel = require_once "bootstrap/bootstrap.php";
+
+$application = \Gravatalonga\Framework\instance(Application::class);
+
+$application->run();

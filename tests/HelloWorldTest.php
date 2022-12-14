@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Tests;
 
 use Gravatalonga\KingFoundation\Kernel;
+use Gravatalonga\KingFoundation\Testing\InteractHttp;
 use Gravatalonga\KingFoundation\Testing\TraitRequest;
 use Slim\Psr7\Request;
 use Slim\Psr7\Response;
@@ -14,7 +15,7 @@ use Slim\Psr7\Response;
  */
 class HelloWorldTest extends TestCase
 {
-    use TraitRequest;
+    use InteractHttp;
 
     public function setUp(): void
     {
