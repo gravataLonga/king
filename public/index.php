@@ -1,15 +1,10 @@
 <?php
 
-use Gravatalonga\Framework\ValueObject\Path;
-use Gravatalonga\KingFoundation\Kernel;
-use Middlewares\Whoops;
-
 require_once "../vendor/autoload.php";
 
-chdir(__DIR__ . '/../');
-
-$app = new Kernel(new Path(getcwd()));
-
-$app->add(new Whoops());
+/**
+ * @var \Gravatalonga\KingFoundation\Kernel $app
+ */
+$app = require_once "bootstrap.php";
 
 $app->run();

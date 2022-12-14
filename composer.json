@@ -32,9 +32,6 @@
     ],
     "scripts": {
         "fix": "php-cs-fixer fix",
-        "test": "phpunit --testdox",
-        "migrate": "doctrine-migrations migrate",
-        "migrate:generate": "doctrine-migrations generate",
-        "migrate:status": "doctrine-migrations status"
+        "test": "phpunit --testdox"
     }
 }

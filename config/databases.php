@@ -11,7 +11,7 @@ return [
         'user' => $_ENV['DATABASE_USER'] ?? '',
         'password' => $_ENV['DATABASE_PASSWORD'] ?? '',
         'host' => $_ENV['DATABASE_HOST'] ?? '',
-        'driver' => $_ENV['DATABASE_DRIVER'] ?? '',
+        'driver' => $_ENV['DATABASE_DRIVER'] ?? 'pdo_mysql',
     ],
 
     /** Memory Databases */
