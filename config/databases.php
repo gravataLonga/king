@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 /** Databases Connections */
+
+use function Gravatalonga\Framework\storage_path;
+
 return [
 
     /** Master Database */
@@ -19,5 +22,18 @@ return [
         'charset' => 'UTF8',
         'memory' => true,
         'driver' => 'pdo_sqlite'
-    ]
+    ],
+
+    /** Sqlite */
+    // 'sqlite' => [
+    //    'charset' => 'UTF8',
+    //    'memory' => false,
+    //    'driver' => 'pdo_sqlite',
+    //    'path' => storage_path()->suffix('filesystem')->suffix('database.sqlite')
+    // ]
+
+    /**
+     * For more information visit:
+     * https://www.doctrine-project.org/projects/doctrine-dbal/en/current/reference/configuration.html
+     */
 ];
