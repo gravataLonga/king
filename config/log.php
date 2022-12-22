@@ -9,7 +9,9 @@ return [
     'drivers' => [
         'default' => [
             'level' => \Monolog\Level::Warning,
-            'name' => 'log.txt'
+            'name' => 'log.txt',
+            'handler' => ['single']
+            // proccessor => []
         ]
     ]
 ];
